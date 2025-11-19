@@ -1,4 +1,5 @@
 import argparse
+import IPython
 
 def _parse_args():
     """
@@ -21,3 +22,10 @@ def _parse_args():
                          help='Generate a cheat sheet project')
 
     return parser.parse_args()
+
+
+
+
+
+if __name__=="__main__":
+    arguments = _parse_args()
